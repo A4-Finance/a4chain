@@ -1,0 +1,14 @@
+syntax = "proto3";
+package a4chain.a4chain;
+
+import "gogoproto/gogo.proto";
+import "a4chain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "a4chain/x/a4chain/types";
+
+// GenesisState defines the a4chain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

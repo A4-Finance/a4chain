@@ -1,0 +1,12 @@
+syntax = "proto3";
+package a4chain.a4chain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "a4chain/x/a4chain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
