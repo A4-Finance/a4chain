@@ -120,7 +120,7 @@ import (
 )
 
 const (
-	Name = "a4"
+	Name = "a4chaind"
 
 	// AddrLen is the allowed length (in bytes) for an address.
 	//
